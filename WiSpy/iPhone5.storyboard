@@ -66,10 +66,6 @@
                                     <segue destination="u5b-mJ-RJR" kind="push" id="mmB-T6-EDS"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wi-spi-logo-icon-120x120.png" translatesAutoresizingMaskIntoConstraints="NO" id="X2c-Ub-TVA">
-                                <rect key="frame" x="111" y="20" width="86" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Then type your question normally" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vs8-yG-H2E">
                                 <rect key="frame" x="68" y="328" width="217" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -77,6 +73,10 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="0nP-RC-ftq">
+                                <rect key="frame" x="125" y="20" width="70" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -105,10 +105,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wi-spi-logo-icon-120x120.png" translatesAutoresizingMaskIntoConstraints="NO" id="MEc-LV-vVT">
-                                <rect key="frame" x="123" y="78" width="80" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4U-Hb-Q3P">
                                 <rect key="frame" x="40" y="143" width="240" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -149,6 +145,10 @@
                                     <segue destination="S2o-3J-20w" kind="push" id="TPm-9S-v0G"/>
                                 </connections>
                             </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="bNl-YB-Eil">
+                                <rect key="frame" x="125" y="68" width="70" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -170,10 +170,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wi-spi-logo-icon-120x120.png" translatesAutoresizingMaskIntoConstraints="NO" id="FG1-LH-p6k">
-                                <rect key="frame" x="117" y="20" width="86" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This app does not really give you access to the NSA data bank, but it can make your friends believe that you have it." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kj6-nN-4xi">
                                 <rect key="frame" x="40" y="196" width="240" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -214,6 +210,10 @@
                                     <segue destination="wpO-Ry-5yo" kind="push" id="DwV-zy-tae"/>
                                 </connections>
                             </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="pfR-TU-pKT">
+                                <rect key="frame" x="125" y="12" width="70" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -239,8 +239,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wi-spi-logo-icon-120x120.png" translatesAutoresizingMaskIntoConstraints="NO" id="zqe-Bk-MPr">
-                                <rect key="frame" x="119" y="27" width="83" height="42"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="AiL-1N-Gks">
+                                <rect key="frame" x="125" y="25" width="70" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mid-gz-csm">
@@ -336,7 +336,6 @@
                         <outlet property="questionTextfield" destination="RAN-Ue-fVF" id="FHC-MI-eQB"/>
                         <outlet property="wiSpyAnswerLabel" destination="ceW-MY-eIf" id="tiW-9h-Sqc"/>
                         <outlet property="wiSpyDataSended" destination="v0Z-mn-WCP" id="0ON-Zk-ODS"/>
-                        <outlet property="wiSpyLogoImageView" destination="zqe-Bk-MPr" id="w3n-0l-Eq6"/>
                         <outlet property="wiSpyReceivingDataLabel" destination="sqU-XX-3ln" id="jJy-iZ-Mae"/>
                         <outlet property="wiSpySendingData" destination="5Dh-64-mvo" id="kL1-Zb-RnV"/>
                         <segue destination="I05-3V-kMb" kind="modal" identifier="Tutorial" id="Xl1-C8-wpc"/>
@@ -358,10 +357,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wi-spi-logo-icon-120x120.png" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-BD-q1J">
-                                <rect key="frame" x="117" y="20" width="86" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="With this simple trick, you can easily proof that NSA are spying us !  " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Yfv-1Y-b1j">
                                 <rect key="frame" x="40" y="149" width="240" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -418,6 +413,10 @@
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="ESw-Jf-lp2">
+                                <rect key="frame" x="125" y="20" width="70" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -465,8 +464,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LOGO.png" width="1500" height="1500"/>
         <image name="background.jpg" width="320" height="480"/>
-        <image name="wi-spi-logo-icon-120x120.png" width="120" height="120"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
