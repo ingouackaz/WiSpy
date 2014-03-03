@@ -15,6 +15,10 @@
 		DB445A6118C40DE80004AFFF /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A5F18C40DE80004AFFF /* LOGO.png */; };
 		DB445A6418C410C20004AFFF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6218C410C20004AFFF /* background.png */; };
 		DB445A6518C410C20004AFFF /* background02.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6318C410C20004AFFF /* background02.png */; };
+		DB445A6718C412E70004AFFF /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6618C412E70004AFFF /* smallLogo.png */; };
+		DB445A6B18C414A60004AFFF /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6818C414A60004AFFF /* logo58.png */; };
+		DB445A6C18C414A60004AFFF /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6918C414A60004AFFF /* logo80.png */; };
+		DB445A6D18C414A60004AFFF /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6A18C414A60004AFFF /* logo120.png */; };
 		DB7125BD18C2585200DC5D3F /* code_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125BC18C2585200DC5D3F /* code_wallpaper.jpg */; };
 		DB7125C118C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C018C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg */; };
 		DB7125C318C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C218C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg */; };
@@ -37,13 +41,6 @@
 		DBF53A3D18C0EBC000428BF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1F18C0EBC000428BF8 /* UIKit.framework */; };
 		DBF53A4518C0EBC000428BF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A4318C0EBC000428BF8 /* InfoPlist.strings */; };
 		DBF53A4718C0EBC000428BF8 /* WiSpyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A4618C0EBC000428BF8 /* WiSpyTests.m */; };
-		DBF53A5618C0EE4100428BF8 /* wi-spi-logo-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5318C0EE4100428BF8 /* wi-spi-logo-58x58.png */; };
-		DBF53A5718C0EE4100428BF8 /* wi-spi-logo-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5418C0EE4100428BF8 /* wi-spi-logo-80x80.png */; };
-		DBF53A5818C0EE4100428BF8 /* wi-spi-logo-icon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5518C0EE4100428BF8 /* wi-spi-logo-icon-120x120.png */; };
-		DBF53A5B18C0EFEF00428BF8 /* wi-spi-load-page-640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5918C0EFEF00428BF8 /* wi-spi-load-page-640x960.png */; };
-		DBF53A5C18C0EFEF00428BF8 /* wi-spi-load-page-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5A18C0EFEF00428BF8 /* wi-spi-load-page-640x1136.png */; };
-		DBF53A5E18C0F0F500428BF8 /* CIA-NSA-Edward-Snowden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5D18C0F0F500428BF8 /* CIA-NSA-Edward-Snowden.jpg */; };
-		DBF53A6018C0F27D00428BF8 /* wi-spy-bouton.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A5F18C0F27D00428BF8 /* wi-spy-bouton.png */; };
 		DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +67,10 @@
 		DB445A5F18C40DE80004AFFF /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
 		DB445A6218C410C20004AFFF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
 		DB445A6318C410C20004AFFF /* background02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background02.png; path = ../background02.png; sourceTree = "<group>"; };
+		DB445A6618C412E70004AFFF /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallLogo.png; sourceTree = "<group>"; };
+		DB445A6818C414A60004AFFF /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = "<group>"; };
+		DB445A6918C414A60004AFFF /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = "<group>"; };
+		DB445A6A18C414A60004AFFF /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = "<group>"; };
 		DB7125BC18C2585200DC5D3F /* code_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = code_wallpaper.jpg; sourceTree = "<group>"; };
 		DB7125C018C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10027_640x960_iphonehdwallpapers_net.jpg; sourceTree = "<group>"; };
 		DB7125C218C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6625_640x960_iphonehdwallpapers_net.jpg; sourceTree = "<group>"; };
@@ -98,13 +99,6 @@
 		DBF53A4218C0EBC000428BF8 /* WiSpyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiSpyTests-Info.plist"; sourceTree = "<group>"; };
 		DBF53A4418C0EBC000428BF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBF53A4618C0EBC000428BF8 /* WiSpyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiSpyTests.m; sourceTree = "<group>"; };
-		DBF53A5318C0EE4100428BF8 /* wi-spi-logo-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-logo-58x58.png"; sourceTree = "<group>"; };
-		DBF53A5418C0EE4100428BF8 /* wi-spi-logo-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-logo-80x80.png"; sourceTree = "<group>"; };
-		DBF53A5518C0EE4100428BF8 /* wi-spi-logo-icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-logo-icon-120x120.png"; sourceTree = "<group>"; };
-		DBF53A5918C0EFEF00428BF8 /* wi-spi-load-page-640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-load-page-640x960.png"; sourceTree = "<group>"; };
-		DBF53A5A18C0EFEF00428BF8 /* wi-spi-load-page-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-load-page-640x1136.png"; sourceTree = "<group>"; };
-		DBF53A5D18C0F0F500428BF8 /* CIA-NSA-Edward-Snowden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "CIA-NSA-Edward-Snowden.jpg"; sourceTree = "<group>"; };
-		DBF53A5F18C0F27D00428BF8 /* wi-spy-bouton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spy-bouton.png"; sourceTree = "<group>"; };
 		DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-background-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -220,6 +214,10 @@
 		DBF53A5018C0EDA800428BF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB445A6818C414A60004AFFF /* logo58.png */,
+				DB445A6918C414A60004AFFF /* logo80.png */,
+				DB445A6A18C414A60004AFFF /* logo120.png */,
+				DB445A6618C412E70004AFFF /* smallLogo.png */,
 				DB445A6218C410C20004AFFF /* background.png */,
 				DB445A6318C410C20004AFFF /* background02.png */,
 				DB445A5F18C40DE80004AFFF /* LOGO.png */,
@@ -231,13 +229,6 @@
 				DB9201EF18C0FC5600BFD05C /* finger-print-scan.png */,
 				DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */,
 				DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */,
-				DBF53A5F18C0F27D00428BF8 /* wi-spy-bouton.png */,
-				DBF53A5D18C0F0F500428BF8 /* CIA-NSA-Edward-Snowden.jpg */,
-				DBF53A5918C0EFEF00428BF8 /* wi-spi-load-page-640x960.png */,
-				DBF53A5A18C0EFEF00428BF8 /* wi-spi-load-page-640x1136.png */,
-				DBF53A5318C0EE4100428BF8 /* wi-spi-logo-58x58.png */,
-				DBF53A5418C0EE4100428BF8 /* wi-spi-logo-80x80.png */,
-				DBF53A5518C0EE4100428BF8 /* wi-spi-logo-icon-120x120.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -319,23 +310,20 @@
 			files = (
 				DB7125C118C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg in Resources */,
 				DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */,
-				DBF53A5818C0EE4100428BF8 /* wi-spi-logo-icon-120x120.png in Resources */,
+				DB445A6D18C414A60004AFFF /* logo120.png in Resources */,
 				DB445A6518C410C20004AFFF /* background02.png in Resources */,
-				DBF53A6018C0F27D00428BF8 /* wi-spy-bouton.png in Resources */,
-				DBF53A5618C0EE4100428BF8 /* wi-spi-logo-58x58.png in Resources */,
 				DB7125BD18C2585200DC5D3F /* code_wallpaper.jpg in Resources */,
-				DBF53A5C18C0EFEF00428BF8 /* wi-spi-load-page-640x1136.png in Resources */,
-				DBF53A5E18C0F0F500428BF8 /* CIA-NSA-Edward-Snowden.jpg in Resources */,
+				DB445A6C18C414A60004AFFF /* logo80.png in Resources */,
 				DB445A6418C410C20004AFFF /* background.png in Resources */,
 				DB445A6118C40DE80004AFFF /* LOGO.png in Resources */,
 				DB7125C318C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg in Resources */,
-				DBF53A5718C0EE4100428BF8 /* wi-spi-logo-80x80.png in Resources */,
 				DBF53A3418C0EBC000428BF8 /* Images.xcassets in Resources */,
 				DB7125C518C26D6800DC5D3F /* background.jpg in Resources */,
 				DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */,
 				DB9201F018C0FC5600BFD05C /* finger-print-scan.png in Resources */,
+				DB445A6718C412E70004AFFF /* smallLogo.png in Resources */,
 				DB7125C918C272DC00DC5D3F /* fingerPrint_1.jpg in Resources */,
-				DBF53A5B18C0EFEF00428BF8 /* wi-spi-load-page-640x960.png in Resources */,
+				DB445A6B18C414A60004AFFF /* logo58.png in Resources */,
 				DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */,
 				DB445A5D18C3F2E30004AFFF /* iPhone5.storyboard in Resources */,
 				DBF53A2F18C0EBC000428BF8 /* Main.storyboard in Resources */,
