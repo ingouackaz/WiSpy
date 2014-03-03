@@ -96,6 +96,9 @@
     _characterDelete = NO;
     [_petitionTextfield setText:@""];
     [_questionTextfield setText:@""];
+    [_petitionTextfield setEnabled:YES];
+    [_questionTextfield setEnabled:YES];
+    
 }
 
 - (IBAction)tapOnce:(id)sender {
@@ -232,6 +235,9 @@
     if (_arrayIndex >= [_labelList count]) {
         NSLog(@"ENDED");
         [_questionButton setUserInteractionEnabled:YES];
+        [_petitionTextfield setEnabled:NO];
+        [_questionTextfield setEnabled:NO];
+        
         //[_questionButton setEnabled:NO];
     }
 
@@ -253,7 +259,7 @@
     if ([_answer length] == 0)
     {
         NSLog(@"LENGT == 0");
-        _answer = @"We know you dont support Snowden :) ";
+        _answer = @"Data not found ";
     }
     
     
@@ -263,7 +269,7 @@
     [_labelTextList addObject:_answer];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0),
                    ^{
-                       [self animateLabelShowText:@">_Wi-Spy :   Searching data    [===========>]   OK!" characterDelay:0.1 forLavel:_wiSpySendingData];
+                       [self animateLabelShowText:@">_Wi-Spy :   Searching data  [======>] OK!" characterDelay:0.1 forLavel:_wiSpySendingData];
                        
                    });
 }

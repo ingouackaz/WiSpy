@@ -19,6 +19,11 @@
 		DB445A6B18C414A60004AFFF /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6818C414A60004AFFF /* logo58.png */; };
 		DB445A6C18C414A60004AFFF /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6918C414A60004AFFF /* logo80.png */; };
 		DB445A6D18C414A60004AFFF /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6A18C414A60004AFFF /* logo120.png */; };
+		DB6CB47918C4FB780012B071 /* petition.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47718C4FB780012B071 /* petition.png */; };
+		DB6CB47A18C4FB780012B071 /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47818C4FB780012B071 /* request.png */; };
+		DB6CB47E18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */; };
+		DB6CB48018C501590012B071 /* answer.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47F18C501590012B071 /* answer.png */; };
+		DB6CB48218C5016F0012B071 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB48118C5016F0012B071 /* question.png */; };
 		DB7125BD18C2585200DC5D3F /* code_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125BC18C2585200DC5D3F /* code_wallpaper.jpg */; };
 		DB7125C118C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C018C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg */; };
 		DB7125C318C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C218C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg */; };
@@ -71,6 +76,11 @@
 		DB445A6818C414A60004AFFF /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = "<group>"; };
 		DB445A6918C414A60004AFFF /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = "<group>"; };
 		DB445A6A18C414A60004AFFF /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = "<group>"; };
+		DB6CB47718C4FB780012B071 /* petition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = petition.png; sourceTree = "<group>"; };
+		DB6CB47818C4FB780012B071 /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = request.png; sourceTree = "<group>"; };
+		DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png"; sourceTree = "<group>"; };
+		DB6CB47F18C501590012B071 /* answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer.png; sourceTree = "<group>"; };
+		DB6CB48118C5016F0012B071 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
 		DB7125BC18C2585200DC5D3F /* code_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = code_wallpaper.jpg; sourceTree = "<group>"; };
 		DB7125C018C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10027_640x960_iphonehdwallpapers_net.jpg; sourceTree = "<group>"; };
 		DB7125C218C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6625_640x960_iphonehdwallpapers_net.jpg; sourceTree = "<group>"; };
@@ -214,6 +224,11 @@
 		DBF53A5018C0EDA800428BF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB6CB48118C5016F0012B071 /* question.png */,
+				DB6CB47F18C501590012B071 /* answer.png */,
+				DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */,
+				DB6CB47718C4FB780012B071 /* petition.png */,
+				DB6CB47818C4FB780012B071 /* request.png */,
 				DB445A6818C414A60004AFFF /* logo58.png */,
 				DB445A6918C414A60004AFFF /* logo80.png */,
 				DB445A6A18C414A60004AFFF /* logo120.png */,
@@ -312,21 +327,26 @@
 				DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */,
 				DB445A6D18C414A60004AFFF /* logo120.png in Resources */,
 				DB445A6518C410C20004AFFF /* background02.png in Resources */,
+				DB6CB47A18C4FB780012B071 /* request.png in Resources */,
 				DB7125BD18C2585200DC5D3F /* code_wallpaper.jpg in Resources */,
 				DB445A6C18C414A60004AFFF /* logo80.png in Resources */,
+				DB6CB48218C5016F0012B071 /* question.png in Resources */,
 				DB445A6418C410C20004AFFF /* background.png in Resources */,
 				DB445A6118C40DE80004AFFF /* LOGO.png in Resources */,
 				DB7125C318C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg in Resources */,
+				DB6CB48018C501590012B071 /* answer.png in Resources */,
 				DBF53A3418C0EBC000428BF8 /* Images.xcassets in Resources */,
 				DB7125C518C26D6800DC5D3F /* background.jpg in Resources */,
 				DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */,
 				DB9201F018C0FC5600BFD05C /* finger-print-scan.png in Resources */,
+				DB6CB47E18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png in Resources */,
 				DB445A6718C412E70004AFFF /* smallLogo.png in Resources */,
 				DB7125C918C272DC00DC5D3F /* fingerPrint_1.jpg in Resources */,
 				DB445A6B18C414A60004AFFF /* logo58.png in Resources */,
 				DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */,
 				DB445A5D18C3F2E30004AFFF /* iPhone5.storyboard in Resources */,
 				DBF53A2F18C0EBC000428BF8 /* Main.storyboard in Resources */,
+				DB6CB47918C4FB780012B071 /* petition.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
