@@ -170,7 +170,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This app does not really give you access to the NSA data bank, but it can make your friends believe that you have it." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="s6G-rg-Ahh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="This app does not really give you access to the NSA data bank, but it can make your friends believe that you have it." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6G-rg-Ahh">
                                 <rect key="frame" x="40" y="196" width="240" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -178,7 +178,7 @@
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Int fact there is no secret information, but it could be !" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-JW-Otx">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Int fact there is no secret information, but it could be !" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOP-JW-Otx">
                                 <rect key="frame" x="47" y="101" width="240" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -358,7 +358,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="With this simple trick, you can easily proof that NSA are spying us !  " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cfY-oI-Pc6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="With this simple trick, you can easily proof that NSA are spying us !  " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfY-oI-Pc6">
                                 <rect key="frame" x="40" y="149" width="240" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -406,7 +406,7 @@
                                     <action selector="goAction:" destination="BOb-Eq-eFd" eventType="touchUpInside" id="iBq-Lq-KM5"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You can easily see this tutorial again by double tap quickly on the wi-Spy's logo." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="meC-I2-CA2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="You can easily see this tutorial again by double tap quickly on the wi-Spy's logo." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meC-I2-CA2">
                                 <rect key="frame" x="40" y="225" width="240" height="87"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

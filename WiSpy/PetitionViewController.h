@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PetitionViewController : UIViewController <UITextFieldDelegate>
+@interface PetitionViewController : UIViewController <UITextFieldDelegate,UIInputViewAudioFeedback>
 {
     UITapGestureRecognizer *tapTwice;
     UITapGestureRecognizer *tapOnce;
@@ -34,9 +34,10 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *petitionTextfield;
 @property (weak, nonatomic) IBOutlet UITextField *questionTextfield;
-- (IBAction)questionEditionChanged:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UIButton *questionButton;
 @property (strong, nonatomic) IBOutlet UIImageView *wiSpyLogoImageView;
+
+
 
 @end

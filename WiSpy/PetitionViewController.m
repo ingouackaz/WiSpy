@@ -12,6 +12,7 @@
 
 @end
 
+
 @implementation PetitionViewController
 @synthesize hiddenMode = _hiddenMode;
 @synthesize petition = _petition;
@@ -44,6 +45,7 @@
 
     [self initPetitonData];
 
+    
 
     [_petitionTextfield addTarget:self action:@selector(petitionTextfieldChanged:) forControlEvents:UIControlEventEditingChanged];
     
@@ -208,8 +210,9 @@
                        ^{
                            [label setText:[NSString stringWithFormat:@"%@%C", label.text, [newText characterAtIndex:i]]];
                        });
-        
+        [[UIDevice currentDevice] playInputClick];
         [NSThread sleepForTimeInterval:delay];
+        
     }
     ++_arrayIndex;
     if (_arrayIndex < [_labelList count] ) {
@@ -234,6 +237,11 @@
 
 }
 
+- (BOOL)enableInputClicksWhenVisible
+{
+    return YES;
+}
+
 -(void)sendingData
 {
     _hiddenMode = 5;
@@ -256,6 +264,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0),
                    ^{
                        [self animateLabelShowText:@">_Wi-Spy :   Searching data    [===========>]   OK!" characterDelay:0.1 forLavel:_wiSpySendingData];
+                       
                    });
 }
 
