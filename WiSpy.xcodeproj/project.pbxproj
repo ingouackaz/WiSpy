@@ -32,6 +32,7 @@
 		DB7125D618C279FF00DC5D3F /* PetitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7125D518C279FF00DC5D3F /* PetitionViewController.m */; };
 		DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */; };
 		DB9201F018C0FC5600BFD05C /* finger-print-scan.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9201EF18C0FC5600BFD05C /* finger-print-scan.png */; };
+		DBE92A2118C5C9540026D2B8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE92A2018C5C9540026D2B8 /* Default-568h@2x.png */; };
 		DBF53A1C18C0EBC000428BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1B18C0EBC000428BF8 /* Foundation.framework */; };
 		DBF53A1E18C0EBC000428BF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1D18C0EBC000428BF8 /* CoreGraphics.framework */; };
 		DBF53A2018C0EBC000428BF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1F18C0EBC000428BF8 /* UIKit.framework */; };
@@ -90,6 +91,7 @@
 		DB7125D518C279FF00DC5D3F /* PetitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetitionViewController.m; sourceTree = "<group>"; };
 		DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wi-spi-background-3.jpg"; sourceTree = "<group>"; };
 		DB9201EF18C0FC5600BFD05C /* finger-print-scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "finger-print-scan.png"; sourceTree = "<group>"; };
+		DBE92A2018C5C9540026D2B8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DBF53A1818C0EBC000428BF8 /* WiSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF53A1B18C0EBC000428BF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBF53A1D18C0EBC000428BF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,6 +141,7 @@
 		DBF53A0F18C0EBC000428BF8 = {
 			isa = PBXGroup;
 			children = (
+				DBE92A2018C5C9540026D2B8 /* Default-568h@2x.png */,
 				DBF53A2118C0EBC000428BF8 /* WiSpy */,
 				DBF53A4018C0EBC000428BF8 /* WiSpyTests */,
 				DBF53A1A18C0EBC000428BF8 /* Frameworks */,
@@ -294,6 +297,9 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
+					DBF53A1718C0EBC000428BF8 = {
+						DevelopmentTeam = SGXTW3RJA2;
+					};
 					DBF53A3818C0EBC000428BF8 = {
 						TestTargetID = DBF53A1718C0EBC000428BF8;
 					};
@@ -346,6 +352,7 @@
 				DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */,
 				DB445A5D18C3F2E30004AFFF /* iPhone5.storyboard in Resources */,
 				DBF53A2F18C0EBC000428BF8 /* Main.storyboard in Resources */,
+				DBE92A2118C5C9540026D2B8 /* Default-568h@2x.png in Resources */,
 				DB6CB47918C4FB780012B071 /* petition.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,10 +504,13 @@
 		DBF53A4B18C0EBC000428BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
 				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CC8EE20-0476-4E51-A03B-EBAF1E23BF2B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -508,10 +518,13 @@
 		DBF53A4C18C0EBC000428BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
 				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3CC8EE20-0476-4E51-A03B-EBAF1E23BF2B";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

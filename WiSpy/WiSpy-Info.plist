@@ -17,15 +17,11 @@
 				<string>logo58</string>
 				<string>logo80</string>
 				<string>logo120</string>
-				<string>wi-spi-logo-80x80</string>
-				<string>wi-spi-logo-58x58</string>
-				<string>wi-spi-logo-icon-120x120</string>
-				<string>wi-spi-logo-icon</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>ingouackaz.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.domainname.wispy</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

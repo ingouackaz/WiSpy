@@ -117,11 +117,7 @@
     if (_hiddenMode == 0 && [_petitionTextfield.text characterAtIndex:_petitionTextfield.text.length-1]== 'Z' )
     {
         _hiddenMode++;
-        NSLog(@"ENTER IN HIDEEN MODE");
         NSString *newString = [_petitionTextfield.text substringToIndex:_petitionTextfield.text.length-1];
-        NSLog(@"NS 1 [%@]",newString);
-        
-        NSLog(@"NS 2 [%@]",[NSString stringWithFormat:@"%@%@",newString,@"Y"]);
 
         [_petitionTextfield setText:[NSString stringWithFormat:@"%@%@",newString,@"Y"]];
         
@@ -139,7 +135,6 @@
                 [_petitionTextfield setText:[NSString stringWithFormat:@"%@%@",newString,[NSString stringWithFormat:@"%c",[_petition characterAtIndex:_petitionIndex]]]];
                 _petitionIndex++;
             }
-            NSLog(@"LEAVE PETITION MODE");
             _hiddenMode++;
         }
         else
@@ -173,7 +168,6 @@
     
     
     if ([_questionTextfield.text length] > 0) {
-        NSLog(@"HIDDEB MODE [%i]", _hiddenMode);
         if (_hiddenMode != 5)
             [self sendingData];
     }
@@ -253,18 +247,18 @@
     _hiddenMode = 5;
     [_wiSpySendingData setHidden:NO];
     [_questionButton setUserInteractionEnabled:NO];
+    [_petitionTextfield setUserInteractionEnabled:NO];
 
-    NSLog(@"ANSWER [%@] lenght [%i]", _answer, [_answer length]);
+    [_questionTextfield setUserInteractionEnabled:NO];
+
 
     if ([_answer length] == 0)
     {
-        NSLog(@"LENGT == 0");
         _answer = @"Data not found ";
     }
     
     
     _answer = [NSString stringWithFormat:@"%@%@", @">_Wi-Spy :   ", _answer];
-    NSLog(@"ANSWER 2 [%@] lenght [%i]", _answer, [_answer length]);
     
     [_labelTextList addObject:_answer];
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0),
