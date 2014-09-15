@@ -1,5 +1,4 @@
-Sample iOS Project
-=====
+
 
 Description
 =====
@@ -10,9 +9,16 @@ We want the Canadian government to accept Snowden in Canada and to give him poli
 
 Canada’s welcoming you, Edward Snowden
 
-Dependencies
+
+Sample iOS Project
 =====
 
+This is a sample one page iOS Project.
+The principle is the same as Peter answer, except that we replaced Peter, by the NSA
+
+
+Dependencies
+=====
 
 You just need to have Xcode with iOS 7.0 or later =)
 
