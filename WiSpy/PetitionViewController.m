@@ -98,6 +98,8 @@
     [_questionTextfield setText:@""];
     [_petitionTextfield setEnabled:YES];
     [_questionTextfield setEnabled:YES];
+    [_petitionTextfield setUserInteractionEnabled:YES];    
+    [_questionTextfield setUserInteractionEnabled:YES];
     
 }
 
@@ -271,7 +273,7 @@
 - (IBAction)newQuestionPressed:(id)sender {
 
     [self initPetitonData];
-    [_petitionTextfield becomeFirstResponder];
+  //  [_petitionTextfield becomeFirstResponder];
  
 }
 

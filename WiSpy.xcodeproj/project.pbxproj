@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C860A76A19C75B93000223E7 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76819C75B93000223E7 /* screen1.png */; };
+		C860A76B19C75B93000223E7 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76919C75B93000223E7 /* screen2.png */; };
 		DB445A5218C3D1F50004AFFF /* IntroTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5118C3D1F50004AFFF /* IntroTutoViewController.m */; };
 		DB445A5518C3D20B0004AFFF /* DescriptionTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5418C3D20B0004AFFF /* DescriptionTutoViewController.m */; };
 		DB445A5818C3D21D0004AFFF /* TricksTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5718C3D21D0004AFFF /* TricksTutoViewController.m */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C860A76819C75B93000223E7 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		C860A76919C75B93000223E7 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
 		DB445A5018C3D1F50004AFFF /* IntroTutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTutoViewController.h; sourceTree = "<group>"; };
 		DB445A5118C3D1F50004AFFF /* IntroTutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTutoViewController.m; sourceTree = "<group>"; };
 		DB445A5318C3D20B0004AFFF /* DescriptionTutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionTutoViewController.h; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 		DBF53A5018C0EDA800428BF8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C860A76819C75B93000223E7 /* screen1.png */,
+				C860A76919C75B93000223E7 /* screen2.png */,
 				DB6CB48118C5016F0012B071 /* question.png */,
 				DB6CB47F18C501590012B071 /* answer.png */,
 				DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */,
@@ -342,11 +348,13 @@
 				DB7125C318C25F1500DC5D3F /* 6625_640x960_iphonehdwallpapers_net.jpg in Resources */,
 				DB6CB48018C501590012B071 /* answer.png in Resources */,
 				DBF53A3418C0EBC000428BF8 /* Images.xcassets in Resources */,
+				C860A76A19C75B93000223E7 /* screen1.png in Resources */,
 				DB7125C518C26D6800DC5D3F /* background.jpg in Resources */,
 				DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */,
 				DB9201F018C0FC5600BFD05C /* finger-print-scan.png in Resources */,
 				DB6CB47E18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png in Resources */,
 				DB445A6718C412E70004AFFF /* smallLogo.png in Resources */,
+				C860A76B19C75B93000223E7 /* screen2.png in Resources */,
 				DB7125C918C272DC00DC5D3F /* fingerPrint_1.jpg in Resources */,
 				DB445A6B18C414A60004AFFF /* logo58.png in Resources */,
 				DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */,
