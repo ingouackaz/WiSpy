@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C860A76A19C75B93000223E7 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76819C75B93000223E7 /* screen1.png */; };
 		C860A76B19C75B93000223E7 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76919C75B93000223E7 /* screen2.png */; };
+		C860A76D19C75D76000223E7 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C860A76C19C75D76000223E7 /* Images-2.xcassets */; };
 		DB445A5218C3D1F50004AFFF /* IntroTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5118C3D1F50004AFFF /* IntroTutoViewController.m */; };
 		DB445A5518C3D20B0004AFFF /* DescriptionTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5418C3D20B0004AFFF /* DescriptionTutoViewController.m */; };
 		DB445A5818C3D21D0004AFFF /* TricksTutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB445A5718C3D21D0004AFFF /* TricksTutoViewController.m */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		C860A76819C75B93000223E7 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
 		C860A76919C75B93000223E7 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		C860A76C19C75D76000223E7 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		DB445A5018C3D1F50004AFFF /* IntroTutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTutoViewController.h; sourceTree = "<group>"; };
 		DB445A5118C3D1F50004AFFF /* IntroTutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTutoViewController.m; sourceTree = "<group>"; };
 		DB445A5318C3D20B0004AFFF /* DescriptionTutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionTutoViewController.h; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				DBF53A2218C0EBC000428BF8 /* Supporting Files */,
 				DB445A5018C3D1F50004AFFF /* IntroTutoViewController.h */,
 				DB445A5118C3D1F50004AFFF /* IntroTutoViewController.m */,
+				C860A76C19C75D76000223E7 /* Images-2.xcassets */,
 			);
 			path = WiSpy;
 			sourceTree = "<group>";
@@ -301,7 +304,7 @@
 		DBF53A1018C0EBC000428BF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					DBF53A1718C0EBC000428BF8 = {
 						DevelopmentTeam = SGXTW3RJA2;
@@ -337,6 +340,7 @@
 			files = (
 				DB7125C118C25DB000DC5D3F /* 10027_640x960_iphonehdwallpapers_net.jpg in Resources */,
 				DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */,
+				C860A76D19C75D76000223E7 /* Images-2.xcassets in Resources */,
 				DB445A6D18C414A60004AFFF /* logo120.png in Resources */,
 				DB445A6518C410C20004AFFF /* background02.png in Resources */,
 				DB6CB47A18C4FB780012B071 /* request.png in Resources */,
@@ -441,7 +445,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -480,7 +483,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -512,13 +514,15 @@
 		DBF53A4B18C0EBC000428BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
 				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3CC8EE20-0476-4E51-A03B-EBAF1E23BF2B";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,13 +530,15 @@
 		DBF53A4C18C0EBC000428BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roger Ingouacka (SGXTW3RJA2)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
 				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3CC8EE20-0476-4E51-A03B-EBAF1E23BF2B";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -540,7 +546,6 @@
 		DBF53A4E18C0EBC000428BF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WiSpy.app/WiSpy";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -563,7 +568,6 @@
 		DBF53A4F18C0EBC000428BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WiSpy.app/WiSpy";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
