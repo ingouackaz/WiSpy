@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04769EFC1BCECD7600B67F71 /* PageTutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04769EFA1BCECD7600B67F71 /* PageTutoVC.swift */; settings = {ASSET_TAGS = (); }; };
+		04769EFD1BCECD7600B67F71 /* TutoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04769EFB1BCECD7600B67F71 /* TutoVC.swift */; settings = {ASSET_TAGS = (); }; };
+		04769EFF1BCECE6C00B67F71 /* TutosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04769EFE1BCECE6C00B67F71 /* TutosView.xib */; settings = {ASSET_TAGS = (); }; };
+		04F852A71BCF0E5500BAB4C4 /* PetitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F852A61BCF0E5500BAB4C4 /* PetitionVC.swift */; settings = {ASSET_TAGS = (); }; };
+		04F852A91BCF1FFF00BAB4C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F852A81BCF1FFF00BAB4C4 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		C860A76A19C75B93000223E7 /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76819C75B93000223E7 /* screen1.png */; };
+		C860A76B19C75B93000223E7 /* screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = C860A76919C75B93000223E7 /* screen2.png */; };
+		DB445A6118C40DE80004AFFF /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A5F18C40DE80004AFFF /* LOGO.png */; };
+		DB445A6418C410C20004AFFF /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6218C410C20004AFFF /* background.png */; };
+		DB445A6518C410C20004AFFF /* background02.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6318C410C20004AFFF /* background02.png */; };
+		DB445A6718C412E70004AFFF /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6618C412E70004AFFF /* smallLogo.png */; };
+		DB445A6B18C414A60004AFFF /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6818C414A60004AFFF /* logo58.png */; };
+		DB445A6C18C414A60004AFFF /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6918C414A60004AFFF /* logo80.png */; };
+		DB445A6D18C414A60004AFFF /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = DB445A6A18C414A60004AFFF /* logo120.png */; };
+		DB6CB47918C4FB780012B071 /* petition.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47718C4FB780012B071 /* petition.png */; };
+		DB6CB47A18C4FB780012B071 /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47818C4FB780012B071 /* request.png */; };
+		DB6CB47E18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */; };
+		DB6CB48018C501590012B071 /* answer.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB47F18C501590012B071 /* answer.png */; };
+		DB6CB48218C5016F0012B071 /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6CB48118C5016F0012B071 /* question.png */; };
+		DB7125C518C26D6800DC5D3F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C418C26D6800DC5D3F /* background.jpg */; };
+		DB7125C918C272DC00DC5D3F /* fingerPrint_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB7125C818C272DC00DC5D3F /* fingerPrint_1.jpg */; };
+		DB7125D618C279FF00DC5D3F /* PetitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7125D518C279FF00DC5D3F /* PetitionViewController.m */; };
+		DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */; };
+		DBF53A1C18C0EBC000428BF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1B18C0EBC000428BF8 /* Foundation.framework */; };
+		DBF53A1E18C0EBC000428BF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1D18C0EBC000428BF8 /* CoreGraphics.framework */; };
+		DBF53A2018C0EBC000428BF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF53A1F18C0EBC000428BF8 /* UIKit.framework */; };
+		DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A2418C0EBC000428BF8 /* InfoPlist.strings */; };
+		DBF53A2818C0EBC000428BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A2718C0EBC000428BF8 /* main.m */; };
+		DBF53A2C18C0EBC000428BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53A2B18C0EBC000428BF8 /* AppDelegate.m */; };
+		DBF53A2F18C0EBC000428BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A2D18C0EBC000428BF8 /* Main.storyboard */; };
+		DBF53A3418C0EBC000428BF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A3318C0EBC000428BF8 /* Images.xcassets */; };
+		DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04769EE41BCEC8F100B67F71 /* WiSpy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiSpy-Bridging-Header.h"; sourceTree = "<group>"; };
+		04769EFA1BCECD7600B67F71 /* PageTutoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTutoVC.swift; sourceTree = "<group>"; };
+		04769EFB1BCECD7600B67F71 /* TutoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutoVC.swift; sourceTree = "<group>"; };
+		04769EFE1BCECE6C00B67F71 /* TutosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutosView.xib; sourceTree = "<group>"; };
+		04F852A61BCF0E5500BAB4C4 /* PetitionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetitionVC.swift; path = Controller/PetitionVC.swift; sourceTree = "<group>"; };
+		04F852A81BCF1FFF00BAB4C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C860A76819C75B93000223E7 /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
+		C860A76919C75B93000223E7 /* screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen2.png; sourceTree = "<group>"; };
+		DB445A5F18C40DE80004AFFF /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		DB445A6218C410C20004AFFF /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
+		DB445A6318C410C20004AFFF /* background02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background02.png; path = ../background02.png; sourceTree = "<group>"; };
+		DB445A6618C412E70004AFFF /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallLogo.png; sourceTree = "<group>"; };
+		DB445A6818C414A60004AFFF /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = "<group>"; };
+		DB445A6918C414A60004AFFF /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = "<group>"; };
+		DB445A6A18C414A60004AFFF /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = "<group>"; };
+		DB6CB47718C4FB780012B071 /* petition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = petition.png; sourceTree = "<group>"; };
+		DB6CB47818C4FB780012B071 /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = request.png; sourceTree = "<group>"; };
+		DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png"; sourceTree = "<group>"; };
+		DB6CB47F18C501590012B071 /* answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer.png; sourceTree = "<group>"; };
+		DB6CB48118C5016F0012B071 /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
+		DB7125C418C26D6800DC5D3F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		DB7125C818C272DC00DC5D3F /* fingerPrint_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fingerPrint_1.jpg; sourceTree = "<group>"; };
+		DB7125D418C279FF00DC5D3F /* PetitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetitionViewController.h; sourceTree = "<group>"; };
+		DB7125D518C279FF00DC5D3F /* PetitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetitionViewController.m; sourceTree = "<group>"; };
+		DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wi-spi-background-3.jpg"; sourceTree = "<group>"; };
+		DBF53A1818C0EBC000428BF8 /* WiSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF53A1B18C0EBC000428BF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBF53A1D18C0EBC000428BF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBF53A1F18C0EBC000428BF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DBF53A2318C0EBC000428BF8 /* WiSpy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiSpy-Info.plist"; sourceTree = "<group>"; };
+		DBF53A2518C0EBC000428BF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF53A2718C0EBC000428BF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBF53A2918C0EBC000428BF8 /* WiSpy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WiSpy-Prefix.pch"; sourceTree = "<group>"; };
+		DBF53A2A18C0EBC000428BF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBF53A2B18C0EBC000428BF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBF53A2E18C0EBC000428BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBF53A3318C0EBC000428BF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBF53A3A18C0EBC000428BF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DBF53A4218C0EBC000428BF8 /* WiSpyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WiSpyTests-Info.plist"; sourceTree = "<group>"; };
+		DBF53A4418C0EBC000428BF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBF53A4618C0EBC000428BF8 /* WiSpyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiSpyTests.m; sourceTree = "<group>"; };
+		DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-spi-background-2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBF53A1518C0EBC000428BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF53A1E18C0EBC000428BF8 /* CoreGraphics.framework in Frameworks */,
+				DBF53A2018C0EBC000428BF8 /* UIKit.framework in Frameworks */,
+				DBF53A1C18C0EBC000428BF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04769EF11BCEC91B00B67F71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04F852A61BCF0E5500BAB4C4 /* PetitionVC.swift */,
+				04769EFA1BCECD7600B67F71 /* PageTutoVC.swift */,
+				04769EFB1BCECD7600B67F71 /* TutoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04769EF21BCEC92400B67F71 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		04769EF31BCEC92900B67F71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04769EFE1BCECE6C00B67F71 /* TutosView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04769EF41BCEC92E00B67F71 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		04769EF51BCEC93400B67F71 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		DBF53A0F18C0EBC000428BF8 = {
+			isa = PBXGroup;
+			children = (
+				04F852A81BCF1FFF00BAB4C4 /* Default-568h@2x.png */,
+				DBF53A2118C0EBC000428BF8 /* WiSpy */,
+				DBF53A4018C0EBC000428BF8 /* WiSpyTests */,
+				DBF53A1A18C0EBC000428BF8 /* Frameworks */,
+				DBF53A1918C0EBC000428BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF53A1918C0EBC000428BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53A1818C0EBC000428BF8 /* WiSpy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF53A1A18C0EBC000428BF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53A1B18C0EBC000428BF8 /* Foundation.framework */,
+				DBF53A1D18C0EBC000428BF8 /* CoreGraphics.framework */,
+				DBF53A1F18C0EBC000428BF8 /* UIKit.framework */,
+				DBF53A3A18C0EBC000428BF8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF53A2118C0EBC000428BF8 /* WiSpy */ = {
+			isa = PBXGroup;
+			children = (
+				04769EF51BCEC93400B67F71 /* Extension */,
+				04769EF41BCEC92E00B67F71 /* Lib */,
+				04769EF31BCEC92900B67F71 /* View */,
+				04769EF21BCEC92400B67F71 /* Modal */,
+				04769EF11BCEC91B00B67F71 /* Controller */,
+				DBF53A5018C0EDA800428BF8 /* Resources */,
+				DBF53A2A18C0EBC000428BF8 /* AppDelegate.h */,
+				DBF53A2B18C0EBC000428BF8 /* AppDelegate.m */,
+				DBF53A2D18C0EBC000428BF8 /* Main.storyboard */,
+				DB7125D418C279FF00DC5D3F /* PetitionViewController.h */,
+				DB7125D518C279FF00DC5D3F /* PetitionViewController.m */,
+				DBF53A3318C0EBC000428BF8 /* Images.xcassets */,
+				DBF53A2218C0EBC000428BF8 /* Supporting Files */,
+				04769EE41BCEC8F100B67F71 /* WiSpy-Bridging-Header.h */,
+			);
+			path = WiSpy;
+			sourceTree = "<group>";
+		};
+		DBF53A2218C0EBC000428BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53A2318C0EBC000428BF8 /* WiSpy-Info.plist */,
+				DBF53A2418C0EBC000428BF8 /* InfoPlist.strings */,
+				DBF53A2718C0EBC000428BF8 /* main.m */,
+				DBF53A2918C0EBC000428BF8 /* WiSpy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF53A4018C0EBC000428BF8 /* WiSpyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53A4618C0EBC000428BF8 /* WiSpyTests.m */,
+				DBF53A4118C0EBC000428BF8 /* Supporting Files */,
+			);
+			path = WiSpyTests;
+			sourceTree = "<group>";
+		};
+		DBF53A4118C0EBC000428BF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53A4218C0EBC000428BF8 /* WiSpyTests-Info.plist */,
+				DBF53A4318C0EBC000428BF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBF53A5018C0EDA800428BF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C860A76819C75B93000223E7 /* screen1.png */,
+				C860A76919C75B93000223E7 /* screen2.png */,
+				DB6CB48118C5016F0012B071 /* question.png */,
+				DB6CB47F18C501590012B071 /* answer.png */,
+				DB6CB47D18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png */,
+				DB6CB47718C4FB780012B071 /* petition.png */,
+				DB6CB47818C4FB780012B071 /* request.png */,
+				DB445A6818C414A60004AFFF /* logo58.png */,
+				DB445A6918C414A60004AFFF /* logo80.png */,
+				DB445A6A18C414A60004AFFF /* logo120.png */,
+				DB445A6618C412E70004AFFF /* smallLogo.png */,
+				DB445A6218C410C20004AFFF /* background.png */,
+				DB445A6318C410C20004AFFF /* background02.png */,
+				DB445A5F18C40DE80004AFFF /* LOGO.png */,
+				DB7125C818C272DC00DC5D3F /* fingerPrint_1.jpg */,
+				DB7125C418C26D6800DC5D3F /* background.jpg */,
+				DB9201ED18C0FA6C00BFD05C /* wi-spi-background-3.jpg */,
+				DBF53A6118C0F30700428BF8 /* wi-spi-background-2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBF53A1718C0EBC000428BF8 /* WiSpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF53A4A18C0EBC000428BF8 /* Build configuration list for PBXNativeTarget "WiSpy" */;
+			buildPhases = (
+				DBF53A1418C0EBC000428BF8 /* Sources */,
+				DBF53A1518C0EBC000428BF8 /* Frameworks */,
+				DBF53A1618C0EBC000428BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiSpy;
+			productName = WiSpy;
+			productReference = DBF53A1818C0EBC000428BF8 /* WiSpy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF53A1018C0EBC000428BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					DBF53A1718C0EBC000428BF8 = {
+						DevelopmentTeam = SGXTW3RJA2;
+					};
+				};
+			};
+			buildConfigurationList = DBF53A1318C0EBC000428BF8 /* Build configuration list for PBXProject "WiSpy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF53A0F18C0EBC000428BF8;
+			productRefGroup = DBF53A1918C0EBC000428BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF53A1718C0EBC000428BF8 /* WiSpy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBF53A1618C0EBC000428BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF53A6218C0F30700428BF8 /* wi-spi-background-2.png in Resources */,
+				DB445A6D18C414A60004AFFF /* logo120.png in Resources */,
+				DB445A6518C410C20004AFFF /* background02.png in Resources */,
+				DB6CB47A18C4FB780012B071 /* request.png in Resources */,
+				DB445A6C18C414A60004AFFF /* logo80.png in Resources */,
+				DB6CB48218C5016F0012B071 /* question.png in Resources */,
+				DB445A6418C410C20004AFFF /* background.png in Resources */,
+				DB445A6118C40DE80004AFFF /* LOGO.png in Resources */,
+				DB6CB48018C501590012B071 /* answer.png in Resources */,
+				DBF53A3418C0EBC000428BF8 /* Images.xcassets in Resources */,
+				C860A76A19C75B93000223E7 /* screen1.png in Resources */,
+				DB7125C518C26D6800DC5D3F /* background.jpg in Resources */,
+				04769EFF1BCECE6C00B67F71 /* TutosView.xib in Resources */,
+				DB9201EE18C0FA6C00BFD05C /* wi-spi-background-3.jpg in Resources */,
+				DB6CB47E18C501460012B071 /* Capture d’écran du Simulateur iOS 2014-03-03 12.44.00.png in Resources */,
+				DB445A6718C412E70004AFFF /* smallLogo.png in Resources */,
+				C860A76B19C75B93000223E7 /* screen2.png in Resources */,
+				04F852A91BCF1FFF00BAB4C4 /* Default-568h@2x.png in Resources */,
+				DB7125C918C272DC00DC5D3F /* fingerPrint_1.jpg in Resources */,
+				DB445A6B18C414A60004AFFF /* logo58.png in Resources */,
+				DBF53A2618C0EBC000428BF8 /* InfoPlist.strings in Resources */,
+				DBF53A2F18C0EBC000428BF8 /* Main.storyboard in Resources */,
+				DB6CB47918C4FB780012B071 /* petition.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBF53A1418C0EBC000428BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F852A71BCF0E5500BAB4C4 /* PetitionVC.swift in Sources */,
+				04769EFC1BCECD7600B67F71 /* PageTutoVC.swift in Sources */,
+				DBF53A2C18C0EBC000428BF8 /* AppDelegate.m in Sources */,
+				04769EFD1BCECD7600B67F71 /* TutoVC.swift in Sources */,
+				DB7125D618C279FF00DC5D3F /* PetitionViewController.m in Sources */,
+				DBF53A2818C0EBC000428BF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBF53A2418C0EBC000428BF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF53A2518C0EBC000428BF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBF53A2D18C0EBC000428BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF53A2E18C0EBC000428BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBF53A4318C0EBC000428BF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBF53A4418C0EBC000428BF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBF53A4818C0EBC000428BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBF53A4918C0EBC000428BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBF53A4B18C0EBC000428BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
+				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domainname.wispy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiSpy/WiSpy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBF53A4C18C0EBC000428BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WiSpy/WiSpy-Prefix.pch";
+				INFOPLIST_FILE = "WiSpy/WiSpy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.domainname.wispy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WiSpy/WiSpy-Bridging-Header.h";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBF53A1318C0EBC000428BF8 /* Build configuration list for PBXProject "WiSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF53A4818C0EBC000428BF8 /* Debug */,
+				DBF53A4918C0EBC000428BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF53A4A18C0EBC000428BF8 /* Build configuration list for PBXNativeTarget "WiSpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF53A4B18C0EBC000428BF8 /* Debug */,
+				DBF53A4C18C0EBC000428BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF53A1018C0EBC000428BF8 /* Project object */;
+}
